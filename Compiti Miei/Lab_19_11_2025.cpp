@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
 
-    string nome_cliente;                                // Dichiarazione della stringa.
+    string nome_cliente;      // Dichiarazione della stringa.
     float km_iniziali, km_finali, km_percorsi, importo; // Dichiarazioni delle variabili reali.
 
     cout << "\nInserisci il Nome del cliente";
