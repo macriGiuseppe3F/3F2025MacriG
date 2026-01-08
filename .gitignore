@@ -1,2 +1,61 @@
+# ======================
+# Compilati / binari
+# ======================
+*.o
+*.obj
 *.exe
-*.vscode
+*.out
+*.app
+*.dll
+*.so
+*.a
+*.lib
+
+# ======================
+# Build directories
+# ======================
+build/
+build-*/
+cmake-build-*/
+bin/
+obj/
+
+# ======================
+# CMake
+# ======================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# ======================
+# Debug / profiling
+# ======================
+*.dSYM/
+*.gcda
+*.gcno
+*.gcov
+gmon.out
+
+# ======================
+# VS Code
+# ======================
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+
+# ======================
+# OS
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Editor temporanei
+# ======================
+*~
+*.swp
+*.tmp
+
