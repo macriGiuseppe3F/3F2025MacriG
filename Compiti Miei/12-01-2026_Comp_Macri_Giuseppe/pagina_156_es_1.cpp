@@ -1,0 +1,1 @@
+/*Svolto sul quaderno.*/
