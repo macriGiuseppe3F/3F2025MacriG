@@ -1,13 +1,3 @@
-/*Realizzare un programma che simula una biglietteria automatica eseguendo i seguenti passi:
-Mostra 3 tipi di biglietto con prezzo:
-    -Biglietto urbano 2 euro
-    -Biglietto extraurbano 3 euro
-    -Giornaliero 5 euro
-L'utente seleziona il biglietto digitando 1,2 oppure 3
-La biglietteria chiede: "Quanti soldi inserisci?" ed esamina l'importo inserito dall'utente
-se l'importo è almeno il prezzo stampare "biglietto emesso"
-altrimenti stampare "Credito insufficiente"*/
-
 #include <stdio.h>
 #include <stdlib.h>
 int main() {

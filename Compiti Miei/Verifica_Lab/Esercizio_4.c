@@ -1,13 +1,3 @@
-/*Scrivere un programma che analizza le precipitazioni giornaliere per 5 giorni consecutivi
-Per 5 volte chiedere un valore (in millimetri, puo essere anche 0).
-Per ogni valore stampa:
--Se il valore è maggiore di 0
-    -se è maggiore di 50: stampare "Pioggia intensa"
-    -altrimenti stampare "pioggia normale"
-    
--Se il valore è minore o uguale a 0
-    stampare "nessuna Pioggia"*/
-
 #include <stdio.h>
 #include <stdlib.h>
 int main() {

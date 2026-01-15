@@ -1,9 +1,3 @@
-/*Scriver un programma che calcoli la somma di una serie indefinita di numeri interi.
-    chiede ripetutamente un numero
-    aggiungere ogni numero inserito a un totale
-    Terminiare quando viene inserito -1
-    Alla fine stampare la somma di tutti i numeri inseriti escluso -1*/
-
 #include <stdio.h>
 #include <stdlib.h>
 int main() {
