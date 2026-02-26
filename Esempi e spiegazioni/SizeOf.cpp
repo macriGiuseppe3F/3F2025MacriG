@@ -15,4 +15,6 @@ int main(){
     cout<<"Byte totali:"          <<sizeof(vettore);
     cout<<"\nByte di un elemento:"<<sizeof(vettore[0]);
     cout<<"\nElementi totali:"    << sizeof(vettore) / sizeof(vettore[0]);
+
+    return 0;
 }
