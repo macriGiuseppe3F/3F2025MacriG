@@ -4,118 +4,149 @@
    Funzioni (definite una sola volta)
    ============================================================ */
 
-void stampa_vettore(const int v[], int n) {
-    for (int i = 0; i < n; i++) {
+void stampa_vettore(const int v[], int n)
+{
+    for (int i = 0; i < n; i++)
+    {
         printf("%d ", v[i]);
     }
     printf("\n");
 }
 
-void stampa_multipli_di_3(const int v[], int n) {
-    for (int i = 0; i < n; i++) {
-        if (v[i] % 3 == 0) {
+void stampa_multipli_di_3(const int v[], int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        if (v[i] % 3 == 0)
+        {
             printf("%d ", v[i]);
         }
     }
     printf("\n");
 }
 
-int ricerca_presenza(const int v[], int n, int x) {
-    for (int i = 0; i < n; i++) {
-        if (v[i] == x) {
+int ricerca_presenza(const int v[], int n, int x)
+{
+    for (int i = 0; i < n; i++)
+    {
+        if (v[i] == x)
+        {
             return 1;
         }
     }
     return 0;
 }
 
-long long fattoriale(int n) {
+long long fattoriale(int n)
+{
 
-    if (n <= 0) {  // fall-off sconsigliato
+    if (n <= 0)
+    { // fall-off sconsigliato
         return 0;
     }
-    if ( n == 1)
-        return 1;  // senza parentesi sconsigliato!!!
+    if (n == 1)
+        return 1; // senza parentesi sconsigliato!!!
 
-    return n*fattoriale(n-1);
+    return n * fattoriale(n - 1);
 }
 
-int conta_occorrenze(const int v[], int n, int x) {
+int conta_occorrenze(const int v[], int n, int x)
+{
     int c = 0;
-    for (int i = 0; i < n; i++) {
-        if (v[i] == x) {
+    for (int i = 0; i < n; i++)
+    {
+        if (v[i] == x)
+        {
             c++;
         }
     }
     return c;
 }
 
-void stampa_picchi(const int v[], int n) {
+void stampa_picchi(const int v[], int n)
+{
 
-    for (int i = 1; i < n - 1; i++) {
-        if (v[i] > v[i - 1] && v[i] > v[i + 1]) {
+    for (int i = 1; i < n - 1; i++)
+    {
+        if (v[i] > v[i - 1] && v[i] > v[i + 1])
+        {
             printf("%d ", v[i]);
         }
     }
     printf("\n");
 }
 
-
-void stampa_pari(const int v[], int n) {
-    for (int i = 0; i < n; i++) {
-        if (v[i] % 2 == 0) {
+void stampa_pari(const int v[], int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        if (v[i] % 2 == 0)
+        {
             printf("%d ", v[i]);
         }
     }
     printf("\n");
 }
 
-int cerca_prima_occorrenza(const int v[], int n, int x) {
-    for (int i = 0; i < n; i++) {
-        if (v[i] == x) {
+int cerca_prima_occorrenza(const int v[], int n, int x)
+{
+    for (int i = 0; i < n; i++)
+    {
+        if (v[i] == x)
+        {
             return i;
         }
     }
     return -1;
 }
 
-int conta_maggiori_di_t(const int v[], int n, int t) {
+int conta_maggiori_di_t(const int v[], int n, int t)
+{
     int c = 0;
-    for (int i = 0; i < n; i++) {
-        if (v[i] > t) {
+    for (int i = 0; i < n; i++)
+    {
+        if (v[i] > t)
+        {
             c++;
         }
     }
     return c;
 }
 
-void inserisci_in_posizione(int v[], int n, int pos, int valore) {
+void inserisci_in_posizione(int v[], int n, int pos, int valore)
+{
 
-    if (pos < 0 || pos >= n) {
+    if (pos < 0 || pos >= n)
+    {
         return;
     }
 
     // shift a destra
-    for (int i = n - 1; i > pos; i--) {
+    for (int i = n - 1; i > pos; i--)
+    {
         v[i] = v[i - 1];
     }
     v[pos] = valore;
 }
 
+void stampa_vallate(const int v[], int n)
+{
 
-void stampa_vallate(const int v[], int n) {
-
-    for (int i = 1; i < n - 1; i++) {
-        if (v[i] < v[i - 1] && v[i] < v[i + 1]) {
+    for (int i = 1; i < n - 1; i++)
+    {
+        if (v[i] < v[i - 1] && v[i] < v[i + 1])
+        {
             printf("%d ", v[i]);
         }
     }
     printf("\n");
 }
 
-int somma_primi_n_ricorsiva(int n) {
-    
-    if (n <= 0) {
+int somma_primi_n_ricorsiva(int n)
+{
+
+    if (n <= 0)
+    {
         return 0;
     }
     return n + somma_primi_n_ricorsiva(n - 1);
@@ -126,8 +157,8 @@ int somma_primi_n_ricorsiva(int n) {
    e, quando richiesto, chiamate a funzioni / frammenti minimi
    ============================================================ */
 
-int main(void) {
-
+int main(void)
+{
 
     /*
     1) Qual è l’indice dell’ultimo elemento di un vettore di dimensione n? Perchè?
@@ -185,7 +216,8 @@ int main(void) {
     {
         int v[] = {10, 20, 30, 40, 50};
         int n = (int)(sizeof(v) / sizeof(v[0]));
-        for (int i = n - 1; i >= 0; i--) {
+        for (int i = n - 1; i >= 0; i--)
+        {
             printf("%d ", v[i]);
         }
         printf("\n");
@@ -259,7 +291,6 @@ int main(void) {
         stampa_picchi(v, n);
     }
 
-
     /*
     1) I vettori del C da noi studiati possono crescere o diminuire di dimensione?
        - Si / No
@@ -304,7 +335,8 @@ int main(void) {
     {
         int v[] = {9, 8, 7};
         int n = (int)(sizeof(v) / sizeof(v[0]));
-        for (int i = n - 1; i >= 0; i--) {
+        for (int i = n - 1; i >= 0; i--)
+        {
             printf("%d ", v[i]);
         }
         printf("\n");
@@ -403,7 +435,6 @@ int main(void) {
         int n = (int)(sizeof(v) / sizeof(v[0]));
         stampa_vallate(v, n);
     }
-
 
     /*
     1) char nome[11]; massimo numero di caratteri stampabili assegnabili?
@@ -566,7 +597,6 @@ int main(void) {
     Spiegazione breve: n=4 considera solo {3,2,2,5}, unica coppia uguale i due 2.
     */
 
-
     /*
     1) Indice ultimo elemento di un vettore di dimensione n?
     Risposta: n-1
@@ -618,9 +648,7 @@ int main(void) {
 
     return 0;
 }
-3f-2025_verifica3_check-studenti.cpp
-Visualizzazione di 3f-2025_verifica3_check-studenti.cpp.
-2026-02-26 Esame domande+risposte TENTATIVE (non necessariamente esatte, controllarle) basate su 3a verifica
+3f - 2025_verifica3_check - studenti.cpp Visualizzazione di 3f - 2025_verifica3_check - studenti.cpp.2026 - 02 - 26 Esame domande + risposte TENTATIVE(non necessariamente esatte, controllarle) basate su 3a verifica
 VIALI ENRICO
 •
 08:27

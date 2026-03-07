@@ -1,53 +1,50 @@
-# ======================
-# Compilati / binari
-# ======================
+# =========================
+# Compiled files (C / C++)
+# =========================
+*.out
+*.exe
 *.o
 *.obj
-*.exe
-*.out
-*.app
-*.dll
-*.so
 *.a
 *.lib
+*.so
+*.dll
 
-# ======================
-# Build directories
-# ======================
+# Build folders
 build/
-build-*/
-cmake-build-*/
 bin/
-obj/
+dist/
 
-# ======================
+# =========================
 # CMake
-# ======================
-CMakeCache.txt
+# =========================
 CMakeFiles/
+CMakeCache.txt
 cmake_install.cmake
 Makefile
 
-# ======================
-# Debug / profiling
-# ======================
-*.dSYM/
-*.gcda
-*.gcno
-*.gcov
-gmon.out
+# =========================
+# VS Code
+# =========================
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
 
+# =========================
+# Logs
+# =========================
+*.log
 
-# ======================
-# OS
-# ======================
+# =========================
+# OS files
+# =========================
 .DS_Store
 Thumbs.db
 
-# ======================
-# Editor temporanei
-# ======================
-*~
-*.swp
+# =========================
+# Temporary files
+# =========================
 *.tmp
-
+*.temp
