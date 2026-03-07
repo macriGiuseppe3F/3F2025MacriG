@@ -5,30 +5,21 @@ using namespace std;
 int main()
 {
 
-    int array[] = {1, 2, 3, 4, 5};
-    int N = 5;
-
-    for (int i = 0; i < N; i++)
+    int i, j, min, temp;
+    int array[100] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    int n = 100;
+    for (i = 0; i < n - 1; i++)
     {
-        int min = i;
-        for (int j = i + 1; i < N; i++)
-        {
-            if (array[j] < array[min])
-            {
+        min = i;
+        for (j = i + 1; j < n; j++)
+            if (arr[j] < arr[min])
                 min = j;
-            }
-            else
-            {
-                int temp = array[i];
-                array[i] = array[min];
-                array[min] = temp;
-            }
-        }
+        temp = arr[min];
+        arr[min] = arr[i];
+        arr[i] = temp;
     }
-
-    for (int i = 0; i < N; i++)
-    {
-        cout << array[i] << " ";
-    }
+    cout << "Elementi ordinati: ";
+    for (i = 0; i < n; i++)
+        cout << arr[i] << " ";
     return 0;
 }
