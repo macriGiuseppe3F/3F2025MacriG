@@ -2,6 +2,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "AlberoNomi",
+            "request": "launch",
+            "mainClass": "AlberoNomi",
+            "projectName": "3F2025MacriG_ff9a8cb2"
+        },
+        {
+            "type": "java",
+            "name": "Atleta",
+            "request": "launch",
+            "mainClass": "Atleta",
+            "projectName": "3F2025MacriG_ff9a8cb2"
+        },
+        {
             "name": "Attach to Chrome",
             "port": 9222,
             "request": "attach",
