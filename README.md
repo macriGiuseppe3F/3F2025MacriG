@@ -7,8 +7,8 @@ Repository scolastica dedicata a esercizi, verifiche, spiegazioni e materiali di
   <img src="https://www.netacad.com/p/ff9e491c-49be-4734-803e-a79e6e83dab1/badges/badge-images/3d5e07f2-ca76-4149-bb55-5aede309b3bf.png" alt="Cisco Badge" width="90" />
   <img src="https://www.netacad.com/p/ff9e491c-49be-4734-803e-a79e6e83dab1/badges/badge-images/cb15538f-9d14-4957-8555-e7f25cec2627.png" alt="Cisco Badge" width="90" />
   <img src="https://www.netacad.com/p/ff9e491c-49be-4734-803e-a79e6e83dab1/badges/badge-images/introduction_to_cybersecurity_16.png" alt="Introduction to Cybersecurity Badge" width="90" />
-  <img src="https://images.credly.com/images/0d812804-e22d-4cc0-9c2a-9a8d5d68d719/blob" alt="Credly Badge" width="90" />
   <img src="https://images.credly.com/size/680x680/images/5bdd6a39-3e03-4444-9510-ecff80c9ce79/image.png" alt="Credly Badge" width="90" />
+  <img src="https://images.credly.com/images/0d812804-e22d-4cc0-9c2a-9a8d5d68d719/blob" alt="Credly Badge" width="90" />
 </p>
 
 ---
