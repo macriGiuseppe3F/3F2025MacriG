@@ -11,8 +11,10 @@ Repository scolastica dedicata a esercizi, verifiche, spiegazioni e materiali di
   <img src="https://images.credly.com/images/0d812804-e22d-4cc0-9c2a-9a8d5d68d719/blob" alt="Credly Badge" width="90" />
   <img src="https://images.credly.com/images/6d5dbe77-59ae-4539-bbff-559ae4103967/image.png" alt="Credly Badge" width="90" />
   <img src="https://images.credly.com/images/6d5dbe77-59ae-4539-bbff-559ae4103967/image.png" alt="Credly Badge" width="90" />
+  <img src="https://images.credly.com/images/f7a0b6e6-650c-4673-b779-e71225fb807c/image.png" alt="Credly Badge" width="90" />
 </p>
 
+  
 ---
 
 ## 📘 Contenuto della repository
