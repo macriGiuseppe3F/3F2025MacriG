@@ -7,9 +7,13 @@ Repository scolastica dedicata a esercizi, verifiche, spiegazioni e materiali di
   <img src="https://www.netacad.com/p/ff9e491c-49be-4734-803e-a79e6e83dab1/badges/badge-images/3d5e07f2-ca76-4149-bb55-5aede309b3bf.png" alt="Cisco Badge" width="90" />
   <img src="https://www.netacad.com/p/ff9e491c-49be-4734-803e-a79e6e83dab1/badges/badge-images/cb15538f-9d14-4957-8555-e7f25cec2627.png" alt="Cisco Badge" width="90" />
   <img src="https://www.netacad.com/p/ff9e491c-49be-4734-803e-a79e6e83dab1/badges/badge-images/introduction_to_cybersecurity_16.png" alt="Introduction to Cybersecurity Badge" width="90" />
+  <img src="https://images.credly.com/size/680x680/images/5bdd6a39-3e03-4444-9510-ecff80c9ce79/image.png" alt="Credly Badge" width="90" />
   <img src="https://images.credly.com/images/0d812804-e22d-4cc0-9c2a-9a8d5d68d719/blob" alt="Credly Badge" width="90" />
+  <img src="https://images.credly.com/images/6d5dbe77-59ae-4539-bbff-559ae4103967/image.png" alt="Credly Badge" width="90" />
+  <img src="https://images.credly.com/images/f7a0b6e6-650c-4673-b779-e71225fb807c/image.png" alt="Credly Badge" width="90" />
 </p>
 
+  
 ---
 
 ## 📘 Contenuto della repository
@@ -32,19 +36,25 @@ Le attività presenti riguardano principalmente:
 La repository è organizzata in più sezioni:
 
 ### `Compiti Miei`
+
 Contiene esercizi e attività svolte durante l'anno, organizzate principalmente per data.
 
 ### `Verifiche`
+
 Raccoglie file relativi a verifiche e prove pratiche.
 
 ### `Informazioni`
+
 Include immagini e materiali teorici di supporto, ad esempio su:
+
 - criteri di programmazione
 - linguaggio C
 - variabili
 
 ### `SPIEGAZIONI`
+
 Contiene file `.cpp` usati come esempi o spiegazioni pratiche di argomenti specifici, come:
+
 - matrici
 - selection sort
 - funzioni
@@ -63,10 +73,12 @@ Contiene file `.cpp` usati come esempi o spiegazioni pratiche di argomenti speci
 </p>
 
 Linguaggi principali utilizzati:
+
 - **C**
 - **C++**
 
 Ambiente di sviluppo:
+
 - **Visual Studio Code**
 
 ---
@@ -78,3 +90,4 @@ Ambiente di sviluppo:
 ```bash
 gcc programma.c -o programma
 ./programma
+```
